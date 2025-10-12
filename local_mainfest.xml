@@ -9,7 +9,7 @@
 
   <remote name="frstprjkt"
           fetch="https://github.com/frstprjkt"
-          revision="androi13"
+          revision="android13"
           clone-depth="1" />
   
   <!-- Device Tree -->
