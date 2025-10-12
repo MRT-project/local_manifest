@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <!-- Remote -->
+  <remote name="joe7500"
+          fetch="https://github.com/Joe7500"
+          revision="lineage-23.0"
+          clone-depth="1" />
+
+  <remote name="frstprjkt"
+          fetch="https://github.com/frstprjkt"
+          revision="androi13"
+          clone-depth="1" />
+  
+  <!-- Device Tree -->
+  <project path="kernel/xiaomi/chime" name="valeryn_xiaomi_sm6115" remote="frstprjkt" />
+  <project path="device/xiaomi/chime" name="device_xiaomi_chime" remote="joe7500" />
+  <project path="vendor/xiaomi/chime" name="vendor_xiaomi_chime" remote="joe7500" />
+</manifest>
