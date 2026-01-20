@@ -7,18 +7,13 @@
           revision="lineage-23.0"
           clone-depth="1" />
 
-  <remote name="frstprjkt"
-          fetch="https://github.com/frstprjkt"
-          revision="android13"
-          clone-depth="1" />
-
   <remote name="rsuplaygrnd"
           fetch="https://github.com/rsuplaygrnd"
           revision="main"
           clone-depth="1" />
   
   <!-- Device Tree -->
-  <project path="kernel/xiaomi/chime" name="valeryn_xiaomi_sm6115" remote="frstprjkt" />
+  <project path="kernel/xiaomi/chime" name="kernel_xiaomi_chime" remote="joe7500" />
   <project path="device/xiaomi/chime" name="device_xiaomi_chime" remote="joe7500" />
   <project path="vendor/xiaomi/chime" name="vendor_xiaomi_chime" remote="joe7500" />
 
