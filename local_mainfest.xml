@@ -16,7 +16,7 @@
           clone-depth="1" />
   <remote name="los16"
           fetch="https://github.com/LineageOS"
-          revision="limeage-23.0"
+          revision="lineage-23.0"
           clone-depth="1" />
   
   <!-- Device Tree -->
