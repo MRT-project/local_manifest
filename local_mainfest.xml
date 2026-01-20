@@ -14,6 +14,10 @@
           fetch="https://github.com/rsuplaygrnd"
           revision="main"
           clone-depth="1" />
+  <remote name="los16"
+          fetch="https://github.com/LineageOS"
+          revision="limeage-23.0"
+          clone-depth="1" />
   
   <!-- Device Tree -->
   <project path="kernel/xiaomi/chime" name="kernel_xiaomi_chime" remote="joe7500kernel" />
@@ -21,4 +25,6 @@
   <project path="vendor/xiaomi/chime" name="vendor_xiaomi_chime" remote="joe7500" />
 
   <project path="vendor/lineage-priv/keys" name="yukiprjkt_priv_keys" remote="rsuplaygrnd" />
+
+  <project path="hardware/xiaomi" name="android_hardware_xiaomi" remote="los16" />
 </manifest>
