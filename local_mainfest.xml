@@ -4,7 +4,7 @@
   <!-- Remote -->
   <remote name="joe7500"
           fetch="https://github.com/Joe7500"
-          revision="lineage-23.0"
+          revision="lineage-23.1"
           clone-depth="1" />
   <remote name="joe7500kernel"
           fetch="https://github.com/Joe7500"
@@ -16,7 +16,7 @@
           clone-depth="1" />
   <remote name="los16"
           fetch="https://github.com/LineageOS"
-          revision="lineage-23.0"
+          revision="lineage-23.1"
           clone-depth="1" />
   
   <!-- Device Tree -->
