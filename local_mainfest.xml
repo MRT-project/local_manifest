@@ -14,7 +14,7 @@
           fetch="https://github.com/rsuplaygrnd"
           revision="main"
           clone-depth="1" />
-  <remote name="los16"
+  <remote name="LiOS16"
           fetch="https://github.com/LineageOS"
           revision="lineage-23.1"
           clone-depth="1" />
@@ -26,5 +26,5 @@
 
   <project path="vendor/lineage-priv/keys" name="yukiprjkt_priv_keys" remote="rsuplaygrnd" />
 
-  <project path="hardware/xiaomi" name="android_hardware_xiaomi" remote="los16" />
+  <project path="hardware/xiaomi" name="android_hardware_xiaomi" remote="LiOS16" />
 </manifest>
