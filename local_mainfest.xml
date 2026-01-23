@@ -18,10 +18,14 @@
           fetch="https://github.com/LineageOS"
           revision="lineage-23.1"
           clone-depth="1" />
+  <remote name="akudewe"
+          fetch="https://github.com/anggitmrt87"
+          revision="test"
+          clone-depth="1" />
   
   <!-- Device Tree -->
   <project path="kernel/xiaomi/chime" name="kernel_xiaomi_chime" remote="joe7500kernel" />
-  <project path="device/xiaomi/chime" name="device_xiaomi_chime" remote="joe7500" />
+  <project path="device/xiaomi/chime" name="device_xiaomi_chime" remote="akudewe" />
   <project path="vendor/xiaomi/chime" name="vendor_xiaomi_chime" remote="joe7500" />
 
   <project path="vendor/lineage-priv/keys" name="yukiprjkt_priv_keys" remote="rsuplaygrnd" />
